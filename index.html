@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/database.js"></script>
+    <script defer src="./js/index.js"></script>
+    <title> Weartake | O melhor e-comerce </title>
+</head>
+<body>
+ <header>
+        <h2 id="logo">WearTake</h2>
+
+        <div id="botaomenu">
+            <p class="BotaoMenu" id="BotaoMenuTodos">Todos</p>
+            <p class="BotaoMenu" id="BotaoMenuAcessorios">Acessorios</p>
+            <p class="BotaoMenu" id="BotaoMenuCalcados">Calçados</p>
+            <p class="BotaoMenu" id="BotaoMenuCamisetas">Camisetas</p>
+        </div>
+    </header>
+    <main>
+        <!-- Lista de Produtos -->
+        <div class="listaProdutos">
+             
+        </div>
+        <!-- Filter+Carrinho de Compras -->
+        <section id="Side-bar">
+            <div id="Filtro">
+                <input type="text" name="" id="barraPesquisa" placeholder="Digite aqui sua pesquisa ...">
+                <button id="ButtonPesquisa">Pesquisar</button>
+            </div>
+            <div id="CarrinhoDeCompras">
+                <h2 id="KartTitle">Carrinho De Compras</h2>
+                <ul class="KartVisor">
+                    <li class="ProdutoOnKart">
+                        <div class="InKart-Box">
+                                <img src="./img/camiseta_branca.svg" alt="" class="InKart-Img">
+                            <div class="InKart-Descri">
+                                <h3 class="InKart-Title">Camisa Branca</h3>
+                                <span class="InKart-Valor">R$ 100.00</span>
+                                <span class="RemoveButton">Remover</span>
+
+                            </div>    
+                        </div>
+                    </li>
+                    
+                </ul>
+                <div id="kartContador">
+
+                   <div id="Contador-Textos">
+                        <span id="Quantidade-Texto">Quantidade:</span>
+                        <span id="Total-Texto">Total:</span>
+                   </div>
+
+                   <div id="Contador-Numeros">
+                        <span class="Quantidade-Numero">0</span>
+                        <span class="Total-Numero">0.00</span>
+                   </div>
+                </div>
+
+            </div>
+        </section>
+        
+    
+    
+    </main>
+</body>
+</html>
